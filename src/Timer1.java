@@ -28,18 +28,18 @@ public class Timer1 {
         return --interval;
     }
 
-    int calculateScore(int time) {
+    int calculateScore(int timer) {
         int points = 0;
 
-        if (time == 10)
+        if (timer == 10)
             points = 10;
-        else if (time <= 8)
+        else if (timer <= 8)
             points = 8;
-        else if (time <= 6)
+        else if (timer <= 6)
             points = 6;
-        else if (time <= 4)
+        else if (timer <= 4)
             points = 4;
-        else if (time <= 2)
+        else if (timer <= 2)
             points = 2;
         else
             points = 0;
