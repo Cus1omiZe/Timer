@@ -27,4 +27,22 @@ public class Timer1 {
             timer.cancel();
         return --interval;
     }
+
+    int calculateScore(int time) {
+        int points = 0;
+
+        if (time == 10)
+            points = 10;
+        else if (time <= 8)
+            points = 8;
+        else if (time <= 6)
+            points = 6;
+        else if (time <= 4)
+            points = 4;
+        else if (time <= 2)
+            points = 2;
+        else
+            points = 0;
+        return points;
+    }
 }
