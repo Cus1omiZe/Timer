@@ -28,7 +28,9 @@ public class Timer1 {
         return --interval;
     }
 
-    int calculateScore(int timer) {
+    /* Dont know how to implement that to existing code
+
+        int calculateScore(int timer) {
         int points = 0;
 
         if (timer == 10)
@@ -44,5 +46,5 @@ public class Timer1 {
         else
             points = 0;
         return points;
-    }
+    }*/
 }
